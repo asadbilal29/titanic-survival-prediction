@@ -1,70 +1,34 @@
-# 🚢 Titanic Survival Prediction
+```
+# Titanic Survival Prediction
 
-This project predicts whether a passenger survived the Titanic shipwreck using machine learning techniques. The dataset used is the famous [Kaggle Titanic dataset](https://www.kaggle.com/competitions/titanic).
+This project predicts passenger survival on the Titanic using Logistic Regression.
 
----
+## Project Structure
 
-## 📦 Project Overview
+- `data/` - Contains the dataset file (`train.csv`)
+- `notebooks/` - Jupyter notebook with data exploration, model training, and evaluation
+- `models/` - Saved trained model file (`logistic_model.pkl`)
 
-The goal is to apply Logistic Regression to classify survival based on features like age, fare, class, etc.
+## How to Run
 
-Final model achieved **~80% accuracy**.
+1. Clone this repo  
+   git clone https://github.com/asadbilal29/titanic-survival-prediction.git
 
----
+2. Open the notebook in `notebooks/` using Jupyter Notebook or Google Colab.
 
-## 🧰 Tools & Libraries Used
+3. Run the notebook cells step-by-step to train and evaluate the model.
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Google Colab / Jupyter Notebook
-- Matplotlib, Seaborn (optional)
+## Results
 
----
+The logistic regression model achieved an accuracy of approximately 79.8% on the test set.
 
-## 🧪 Workflow
+## Future Work
 
-1. Data loading and inspection
-2. Data cleaning and preprocessing
-3. Feature engineering
-4. Model training with Logistic Regression
-5. Model evaluation
-6. Model saving (`logistic_model.pkl`)
+- Experiment with other machine learning models such as Random Forest or XGBoost  
+- Perform hyperparameter tuning to improve model performance  
+- Add feature engineering and data preprocessing enhancements  
+- Implement cross-validation for robust evaluation  
 
 ---
-
-## 📁 Files Included
-
-| File | Description |
-|------|-------------|
-| `titanic_survival_prediction.ipynb` | The full Jupyter Notebook |
-| `logistic_model.pkl` | Pickled trained model |
-| `README.md` | This file |
-
----
-
-## ▶️ How to Run
-
-1. Clone this repo or download the files
-2. Open the notebook using **Jupyter** or **Google Colab**
-3. Upload the Titanic dataset (`train.csv`) in the notebook
-4. Run all cells to train and evaluate the model
-
----
-
-## 📈 Future Enhancements
-
-- Try advanced models (Random Forest, XGBoost)
-- Add data visualizations
-- Use GridSearchCV for hyperparameter tuning
-- Deploy model with Streamlit
-
----
-
-## ✍️ Author
-
-- Asad Bilal  
-- [GitHub Profile](https://github.com/asadbilal29)
-
----
-
+Feel free to reach out if you have any questions or suggestions!
+```
