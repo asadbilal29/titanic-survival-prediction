@@ -1,32 +1,70 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
 
-This project predicts passenger survival on the Titanic using machine learning.  
-The dataset is from [Kaggle Titanic competition](https://www.kaggle.com/c/titanic).
+This project predicts whether a passenger survived the Titanic shipwreck using machine learning techniques. The dataset used is the famous [Kaggle Titanic dataset](https://www.kaggle.com/competitions/titanic).
 
-## Project Overview
+---
 
-- Data loading and exploration  
-- Data cleaning and preprocessing (handling missing values, encoding categorical variables)  
-- Model building using Logistic Regression  
-- Model evaluation and accuracy measurement (~80%)  
-- Model saving for future use  
+## 📦 Project Overview
 
-## How to Run
+The goal is to apply Logistic Regression to classify survival based on features like age, fare, class, etc.
 
-1. Load the Jupyter notebook `titanic_survival_prediction.ipynb`  
-2. Run the cells step-by-step to reproduce the analysis and model training  
-3. Use `logistic_model.pkl` to load the saved model for predictions
+Final model achieved **~80% accuracy**.
 
-## Dependencies
+---
 
-- Python 3.x  
-- pandas  
-- scikit-learn  
-- seaborn  
-- matplotlib  
-- joblib  
+## 🧰 Tools & Libraries Used
 
-## Author
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Google Colab / Jupyter Notebook
+- Matplotlib, Seaborn (optional)
 
-Mohammed Asad Bilal
+---
+
+## 🧪 Workflow
+
+1. Data loading and inspection
+2. Data cleaning and preprocessing
+3. Feature engineering
+4. Model training with Logistic Regression
+5. Model evaluation
+6. Model saving (`logistic_model.pkl`)
+
+---
+
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| `titanic_survival_prediction.ipynb` | The full Jupyter Notebook |
+| `logistic_model.pkl` | Pickled trained model |
+| `README.md` | This file |
+
+---
+
+## ▶️ How to Run
+
+1. Clone this repo or download the files
+2. Open the notebook using **Jupyter** or **Google Colab**
+3. Upload the Titanic dataset (`train.csv`) in the notebook
+4. Run all cells to train and evaluate the model
+
+---
+
+## 📈 Future Enhancements
+
+- Try advanced models (Random Forest, XGBoost)
+- Add data visualizations
+- Use GridSearchCV for hyperparameter tuning
+- Deploy model with Streamlit
+
+---
+
+## ✍️ Author
+
+- Asad Bilal  
+- [GitHub Profile](https://github.com/asadbilal29)
+
+---
 
